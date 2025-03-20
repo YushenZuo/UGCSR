@@ -11,6 +11,13 @@ Combine PiSA-SR and NAFSSR.
 
 
 ## 🍭 Quick Inference
+#### Step 1: Set Up
+```
+conda create -n ugcsr python=3.10
+conda activate ugcsr
+pip install -r requirements.txt
+```
+
 #### Step 1: Download the pretrained models
 - Download the pretrained SD-2.1-base models from [HuggingFace](https://huggingface.co/stabilityai/stable-diffusion-2-1-base).
 
