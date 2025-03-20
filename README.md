@@ -28,7 +28,6 @@ CUDA_VISIBLE_DEVICES=1 python test_ugcsr.py \
 ```
 
 
-```
 
 ### License
 This project is released under the [Apache 2.0 license](LICENSE).
