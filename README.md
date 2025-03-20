@@ -18,10 +18,10 @@ conda activate ugcsr
 pip install -r requirements.txt
 ```
 
-#### Step 1: Download the pretrained models
+#### Step 2: Download the pretrained models
 - Download the pretrained SD-2.1-base models from [HuggingFace](https://huggingface.co/stabilityai/stable-diffusion-2-1-base).
 
-#### Step 2: Running testing command 
+#### Step 3: Running testing command 
 Example script:
 ```
 CUDA_VISIBLE_DEVICES=1 python test_ugcsr.py \
