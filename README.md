@@ -1,12 +1,12 @@
 
 <div align="center">
-<h2>Code for NTIRE 2025 Challenge on Short-form UGC Image Super-Resolution (4x)</h2>
+<h2>PiNAFusion-SR: Code for NTIRE 2025 Challenge on Short-form UGC Image Super-Resolution (4x)</h2>
 
 </div>
 
 
 ## ⏰ Key
-Combine PiSA-SR and NAFSSR.
+PiNAFusion-SR: Combine PiSA-SR with image fusion model, which is inspired by NAFSSR.
 
 
 
@@ -23,9 +23,9 @@ pip install -r requirements.txt
 
 #### Step 3: Running testing command 
 Example script:
-```
+```bash
 CUDA_VISIBLE_DEVICES=1 python test_ugcsr.py \
-    --pretrained_model_path /home/vip2024/zys/Agentic-Restoration/executor/super_resolution/tools/OSEDiff/pretrained_models/SD/stable-diffusion-2-1-base \
+    --pretrained_model_path <The-folder-you-save-SD-2.1-Base> \
     --pretrained_path pretrained_models/pisa_sr.pkl \
     --pretrained_fusion_path pretrained_models/fusion/fusion_model.pth \
     --fusion_tile 1024 \
