@@ -31,7 +31,7 @@ CUDA_VISIBLE_DEVICES=1 python test_ugcsr.py \
     --fusion_tile 1024 \
     --fusion_tile_overlap 64 \
     --input_image /home/data1/NTIRE2025/ShortformUGCSR/wild_val \
-    --output_dir /home/data1/NTIRE2025/ShortformUGCSR/submissions/PISASR_pretrained_wavelet_align_fusion/wild
+    --output_dir /home/data1/NTIRE2025/ShortformUGCSR/submissions/PiNAFusionSR/wild
 ```
 
 
